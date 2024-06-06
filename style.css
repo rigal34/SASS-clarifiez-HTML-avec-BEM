@@ -1,0 +1,49 @@
+
+📽/*1 ceci est mon bloc */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+
+/* 2 ceci est un BLOC + l'élément 🙇*/
+.navbar__logo {
+background-color: blue;
+
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* à été remplacé par __link au lieu de mettre le a */
+/* a{
+color: #242424;
+text-decoration: none;
+
+} */
+
+
+
+/*🍨  */
+.navbar__link{
+text-decoration:none;
+margin-left: 30px;  /*🤐*/ 
+color:#242424
+}
+
+/*🙇 :::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* 3 ceci est un modificateur🍨 */
+/* je vais modifier navbar___link 🍨*/
+.navbar__link--red{
+  color: red;
+}
+
+
+/* 4je deplace le margin-left dans navbar__link🤐
+.nav a{
+  margin-left: 30px;
+  
+} */
